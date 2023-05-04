@@ -72,7 +72,6 @@
   font-weight: 400;
   background: #fff;
   text-align: center;
-  /* padding: 50px 0; */
   font-size: 20px;
 }
 
@@ -134,7 +133,7 @@ h1 {
 
 .img_down {
   width: 12%;
-  border: 0.1px solid #ACB7C3;
+  border: 0.1px solid #acb7c3;
   border-radius: 50%;
   padding: 2%;
 }
