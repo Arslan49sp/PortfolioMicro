@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,21 +19,11 @@
   min-height: 10vh;
   padding: 10px 20px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .header_menu {
   padding: 3px 5px;
-}
-
-.logo {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
-.logo a {
-  text-decoration: none;
 }
 
 .menu_icon {
@@ -40,19 +32,21 @@
 }
 
 .headline {
-  padding: 25px;
+  display: flex;
+  justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(assets/bg_mobile.png);
-  background-position: center center;
+  background-position: center;
 }
 
-.sub-headline_name,
+.headline_container {
+  width: 84%;
+}
+
 .sub-headline {
   display: block;
-}
-
-.sub-headline {
+  font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #36b37e;
@@ -68,6 +62,7 @@
 }
 
 .headline_content {
+  font-family: "Inter", sans-serif;
   color: #172b4d;
   font-weight: 400;
   background: #fff;
