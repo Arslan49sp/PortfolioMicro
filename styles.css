@@ -142,16 +142,6 @@ h1 {
   padding: 2%;
 }
 
-.card {
-  height: 300px;
-  background-color: #ebf0ee;
-  border-radius: 6px;
-  display: grid;
-  margin-top: 20px;
-  margin-right: 25px;
-  margin-left: 25px;
-}
-
 h2 {
   font-family: "Inter", sans-serif;
   text-align: center;
@@ -159,36 +149,6 @@ h2 {
   font-size: 24px;
   color: #344563;
   margin-top: 2%;
-}
-
-.logo-img {
-  margin: auto;
-}
-
-#about-me {
-  position: relative;
-}
-
-.img3 {
-  background-image: url(assets/bg_about.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  width: 60px;
-  height: 159px;
-  position: absolute;
-  right: 0;
-  bottom: 65%;
-}
-
-.img4 {
-  background-image: url(assets/bg_about_down.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 .h3_my_work {
@@ -235,6 +195,10 @@ h2 {
 
 .tools_flex {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 8px;
 }
 
 .skills_design {
@@ -243,7 +207,7 @@ h2 {
   border-radius: 4px;
   font-weight: 600;
   font-size: 12px;
-  padding: 10px 17px;
+  padding: 10px 12px;
   color: #36b37e;
   background-color: #fff;
 }
@@ -297,4 +261,68 @@ hr {
   flex-direction: column;
   border-radius: 10px;
   place-items: center;
+}
+
+.flex_col_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.flex_aboutme {
+  width: 80%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.aboutme {
+  position: relative;
+  margin-bottom: 30px;
+  width: 85%;
+}
+
+.aboutme::before {
+  position: absolute;
+  content: "";
+  background: url(assets/bg_about.svg);
+  width: 68px;
+  height: 110px;
+  top: -13%;
+  right: -10%;
+}
+
+.aboutme::after {
+  position: absolute;
+  content: "";
+  background: url(assets/bg_about_down.svg);
+  width: 71px;
+  height: 58px;
+  bottom: 0;
+  left: -10%;
+}
+
+.aboutme_box_container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 85%;
+  margin-block: 20px;
+  padding: 0;
+}
+
+.box {
+  aspect-ratio: 9/10;
+  width: 100%;
+  background-color: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-inline: 8px;
+  list-style: none;
+}
+
+.icon_container {
+  height: 30%;
 }
