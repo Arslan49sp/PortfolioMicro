@@ -401,7 +401,8 @@ hr {
 .footer {
   display: flex;
   margin-top: 10px;
-  justify-content: center;
+
+  /* justify-content: center; */
   width: 100%;
   justify-content: space-evenly;
   flex-direction: column;
@@ -418,10 +419,11 @@ hr {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
-  color: #42526E;
+  color: #42526e;
 }
+
 .divider-footer {
-  margin: 0px 0px 10px 0px;
+  margin: 0 0 10px 0;
   border-top: 6px solid #172b4d;
   border-radius: 5px;
   width: 50%;
