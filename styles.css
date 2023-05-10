@@ -421,8 +421,8 @@ hr {
   color: #42526E;
 }
 .divider-footer {
-  margin: 0;
-  border-top: 6px solid var(--dark);
+  margin: 0px 0px 10px 0px;
+  border-top: 6px solid #172b4d;
   border-radius: 5px;
   width: 50%;
 }
