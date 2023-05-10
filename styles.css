@@ -376,7 +376,6 @@ hr {
 }
 
 .form_container textarea::placeholder {
-  /* font-style: italic; */
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -394,11 +393,36 @@ hr {
   width: 80%;
 }
 
-.text_center {
-  text-align: center;
-}
-
 .p7 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  width: 65%;
+  margin-block: 30px;
+}
+
+.email_text {
+  font-family: "Linter", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #42526E;
+}
+.divider-footer {
+  margin: 0;
+  border-top: 6px solid var(--dark);
+  border-radius: 5px;
+  width: 50%;
 }
