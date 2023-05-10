@@ -409,11 +409,6 @@ hr {
   align-items: center;
 }
 
-.footer-container {
-  width: 65%;
-  margin-block: 30px;
-}
-
 .email_text {
   font-family: "Linter", sans-serif;
   text-align: center;
@@ -422,7 +417,7 @@ hr {
   color: #42526e;
 }
 
-.divider-footer {
+.divider_footer {
   margin: 0 0 10px 0;
   border-top: 6px solid #172b4d;
   border-radius: 5px;
