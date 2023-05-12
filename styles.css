@@ -38,6 +38,9 @@
   background-repeat: no-repeat;
   background-image: url(assets/bg_mobile.png);
   background-position: center;
+  transition-property: all;
+  transition-duration: 10s;
+  transition-timing-function: ease-in-out;
 }
 
 .headline_container {
@@ -59,6 +62,7 @@
   font-weight: 700;
   color: #172b4d;
   text-align: center;
+
 }
 
 .headline_content {
