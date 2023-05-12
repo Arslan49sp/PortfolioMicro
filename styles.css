@@ -26,7 +26,7 @@
   padding: 3px 5px;
 }
 
-.headline {
+/* .headline {
   display: flex;
   justify-content: center;
   background-size: cover;
@@ -37,7 +37,7 @@
 
 .headline_container {
   width: 84%;
-}
+} */
 
 .sub-headline {
   display: block;
@@ -116,7 +116,7 @@ h1 {
   margin-bottom: 5%;
 }
 
-.move_down {
+/* .move_down {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +135,7 @@ h1 {
   border: 0.1px solid black;
   border-radius: 50%;
   padding: 2%;
-}
+} */
 
 h2 {
   font-family: "Inter", sans-serif;
@@ -436,6 +436,43 @@ hr {
     display: none;
   }
 
+  /* headline section  */
+
+   .headline {
+    position: relative;
+    background-image: url(assets/bg_mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .headline_container {
+    width: 85%;
+  }
+
+  .action_btn_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+  }
+
+  .scroll_button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+  }
+
+  .scroll_button:hover {
+    background-color: green;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  }
 }
 
 /* dekstop */
@@ -493,169 +530,25 @@ hr {
     background-repeat: no-repeat;
   }
 
-  /* heroku section */
-  .heroku {
+  /* headline section */
+  .headline {
+    display: flex;
+    justify-content: center;
     background-image: none;
     padding-top: 10vh;
   }
 
-  .heroku-container {
+  .headline_container {
     width: 770px;
   }
 
-  .dekstop-hidden {
+  .desktop_hidden {
     display: none;
   }
 
-  .primary-text {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
-  }
-
-  .support-text {
-    line-height: 32px;
-  }
-
-  .socialmedia-wrapper {
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .action-button-wrapper {
+  .action_btn_wrapper {
     bottom: 30%;
   }
 
-  /* work section */
-
-  .works {
-    margin-bottom: 192px;
-  }
-
-  .card-container {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 24px;
-    column-gap: 32px;
-    place-self: center;
-  }
-
-  .card {
-    width: 369px;
-    height: 474px;
-    justify-self: center;
-  }
-
-  .card-title {
-    height: auto;
-    width: 60%;
-  }
-
-  /* aboutme section */
-
-  .aboutme {
-    width: 770px;
-  }
-
-  .aboutme::before {
-    position: absolute;
-    content: "";
-    background: url(assets/illustration2-aboutme-dekstop.svg);
-    width: 224px;
-    height: 245px;
-    top: -50%;
-    right: -50%;
-  }
-
-  .aboutme::after {
-    position: absolute;
-    content: "";
-    background: url(assets/illustration1-aboutme-dekstop.svg);
-    width: 236px;
-    height: 128px;
-    bottom: -0%;
-    left: -50%;
-    z-index: -1;
-  }
-
-  .aboutme-box-container {
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .box {
-    width: 343px;
-    height: 315px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    gap: 20px;
-  }
-
-  /* form section */
-  .form {
-    display: flex;
-    margin-top: 97.5px;
-    height: 490px;
-    position: relative;
-    width: 1069px;
-  }
-
-  .form::before {
-    content: "";
-    position: absolute;
-    background-image: url(/assets/form-ilustration1-dekstop.svg);
-    width: 194px;
-    height: 352px;
-    left: -20%;
-    bottom: -10%;
-  }
-
-  .form::after {
-    content: "";
-    position: absolute;
-    background-image: url(/assets/form-ilustration2-dekstop.svg);
-    width: 131px;
-    height: 106px;
-    left: 5%;
-    bottom: 10%;
-  }
-
-  .form-container::after {
-    background-image: url(/assets/form-ilustration3-dekstop.svg);
-    width: 223px;
-    height: 496px;
-    bottom: -10%;
-    right: -35%;
-  }
-
-  .mobile-hidden {
-    display: block;
-  }
-
-  .form h2 {
-    font-size: 30px;
-    width: 45%;
-    text-align: left;
-  }
-
-  .form-container {
-    width: 55%;
-  }
-
-  .form-container button {
-    place-self: start;
-  }
-
-  .first-last-name-container {
-    display: flex;
-    gap: 24px;
-  }
-
-  /* footer */
-  .footer {
-    margin-top: 72px;
-    border-top: 1px gray solid;
-  }
+ 
 }
