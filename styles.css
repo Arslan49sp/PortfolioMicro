@@ -583,4 +583,47 @@ hr {
     margin-top: 20%;
     margin-bottom: 52px;
   }
+
+  /* aboutme section */
+
+  .aboutme {
+    margin-top: 8%;
+    width: 770px;
+  }
+
+  .aboutme::before {
+    position: absolute;
+    content: "";
+    background: url(assets/illustration2-aboutme-dekstop.svg);
+    width: 224px;
+    height: 245px;
+    top: -25%;
+    right: -72%;
+  }
+
+  .aboutme::after {
+    position: absolute;
+    content: "";
+    background: url(assets/illustration1-aboutme-dekstop.svg);
+    width: 236px;
+    height: 128px;
+    bottom: -0%;
+    left: -72%;
+    z-index: -1;
+  }
+
+  .aboutme_box_container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .box {
+    width: 343px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+  }
 }
