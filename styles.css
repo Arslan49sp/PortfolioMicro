@@ -550,5 +550,37 @@ hr {
     bottom: 30%;
   }
 
- 
+  /* work section */
+
+  .work_card_container {
+    margin: auto;
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project_card {
+    height: 474px;
+    width: 369px;
+    background-color: #fff;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h3_my_work {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #172b4d;
+    font-weight: 700;
+    margin-top: 20%;
+    margin-bottom: 52px;
+  }
 }
