@@ -29,6 +29,19 @@
 .menu_icon {
   width: 24px;
   height: auto;
+
+  animation-name: logo_rotate;
+  animation-duration: 3s;
+}
+
+@keyframes logo_rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .headline {
@@ -42,6 +55,8 @@
   transition-duration: 10s;
   transition-timing-function: ease-in-out;
 }
+
+
 
 .headline_container {
   width: 84%;
