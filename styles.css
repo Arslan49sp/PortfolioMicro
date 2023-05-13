@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
+  overflow-x: hidden;
+  max-width: 100%;
   font-family: "Inter", sans-serif;
 }
 
@@ -564,7 +566,7 @@ hr {
 
   .aboutme {
     margin-top: 8%;
-    width: 770px;
+    width: 42%;
   }
 
   .aboutme::before {
@@ -573,7 +575,7 @@ hr {
     background: url(assets/bg2_about_desktop.svg);
     width: 224px;
     height: 245px;
-    top: -50%;
+    top: -22%;
     right: -50%;
   }
 
@@ -611,7 +613,7 @@ hr {
     margin-top: 97.5px;
     height: 490px;
     position: relative;
-    width: 1069px;
+    width: 70%;
   }
 
   .form::before {
