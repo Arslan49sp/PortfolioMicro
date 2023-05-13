@@ -532,7 +532,7 @@ hr {
   .work_card_container {
     margin: auto;
     display: grid;
-    width: 60%;
+    width: 80%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 24px;
@@ -542,8 +542,7 @@ hr {
   }
 
   .project_card {
-    height: 474px;
-    width: 369px;
+    width: 100%;
     background-color: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
@@ -574,8 +573,8 @@ hr {
     background: url(assets/bg2_about_desktop.svg);
     width: 224px;
     height: 245px;
-    top: -25%;
-    right: -72%;
+    top: -50%;
+    right: -50%;
   }
 
   .aboutme::after {
@@ -585,18 +584,20 @@ hr {
     width: 236px;
     height: 128px;
     bottom: -0%;
-    left: -72%;
+    left: -50%;
     z-index: -1;
   }
 
   .aboutme_box_container {
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
   }
 
   .box {
-    width: 343px;
-    height: 315px;
+    width: 26.6666%;
+    height: 480px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -619,7 +620,7 @@ hr {
     background-image: url(assets/bg1_form_desktop.svg);
     width: 194px;
     height: 352px;
-    left: -35%;
+    left: -20%;
     bottom: -10%;
   }
 
@@ -629,7 +630,7 @@ hr {
     background-image: url(assets/bg2_form_desktop.svg);
     width: 131px;
     height: 106px;
-    left: 1.5%;
+    left: 5%;
     bottom: 10%;
   }
 
@@ -638,7 +639,7 @@ hr {
     width: 223px;
     height: 496px;
     bottom: -10%;
-    right: -55%;
+    right: -33%;
   }
 
   .mobile_hidden {
