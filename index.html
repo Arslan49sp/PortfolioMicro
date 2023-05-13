@@ -252,7 +252,7 @@
     </section>
 
     <section class="flex_col_center">
-      <div class="aboutme flex_col_center" margin_top_t>
+      <div class="aboutme flex_col_center">
         <h1>About Me</h1>
         <p>
           I can help you build a product , feature or website Look through some
@@ -303,50 +303,21 @@
       </ul>
     </section>
 
-    <section class="contact_container">
-      <div class="section_width">
-        <h1 class="p7s">
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </h1>
-        <form
-          class="form_container"
-          action="https://formspree.io/f/mzbqodyb"
-          method="POST"
-        >
-          <label for="full_name">
-            <input
-              placeholder="Full name"
-              type="text"
-              name="full_name"
-              maxlenght="30"
-              required
-            />
-          </label>
-          <label for="email">
-            <input
-              type="email"
-              name="email"
-              placeholder="Email address"
-              required
-            />
-          </label>
-          <label for="message">
-            <textarea
-              name="message"
-              maxlenght="500"
-              placeholder="Hey I'd like to connect to..."
-              required
-            ></textarea>
-          </label>
-          <!-- your other form fields go here -->
+    <section id="contact" class="contact_container">
+      <div class="form">
+        <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
+        <form class="form_container" action="https://formspree.io/f/mzbqodyb" method="POST">
+          <input placeholder="Full name" type="text" name="full_name" maxlenght="30" required />
+          <input type="email" name="email" placeholder="Email address" required />
+          <textarea name="message" maxlenght="500" placeholder="Hey Idd like to connect to..." required></textarea>
           <button class="btngreen" type="submit">Get in touch</button>
         </form>
       </div>
     </section>
 
     <footer class="footer">
-      <p class="email_text">myemailhere@email.com</p>
+      <p class="email_text desktop_hidden">myemailhere@email.com</p>
+      <hr class="mobile_hidden">
       <div class="addline_social">
         <ul class="social_links">
           <li class="social_link">
@@ -396,7 +367,7 @@
           </li>
         </ul>
       </div>
-      <hr class="divider_footer" />
+      <hr class="divider_footer desktop_hidden" />
     </footer>
   </body>
 </html>
