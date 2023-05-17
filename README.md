@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -40,6 +41,14 @@ This is personal portfolio. It is fully responsive on different devices.
 ### Key Features <a name="key-features"></a>
 
 Responsive portfolio with some cool animations
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://arslan49sp.github.io/PortfolioMicro/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
