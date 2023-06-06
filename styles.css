@@ -389,13 +389,13 @@ hr {
   outline: 1px solid #60c095;
 }
 
-.section_width {
-  width: 80%;
-}
-
 .p7 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.section_width {
+  width: 80%;
 }
 
 .footer {
