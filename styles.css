@@ -12,16 +12,16 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.black {
-  color: black;
-}
-
 .header_nav {
   display: flex;
   min-height: 10vh;
   padding: 10px 20px;
   align-items: center;
   justify-content: end;
+}
+
+.black {
+  color: black;
 }
 
 .header_menu {
