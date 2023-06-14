@@ -12,6 +12,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.hidden-label {
+  display: none;
+}
+
 .header_nav {
   display: flex;
   min-height: 10vh;
