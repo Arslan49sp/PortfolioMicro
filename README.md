@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Presentation](#live-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -49,6 +50,14 @@ Responsive portfolio with some cool animations
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://arslan49sp.github.io/PortfolioMicro/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE Presentation -->
+
+## 🚀 Live Presentation <a name="live-presentation"></a>
+
+- [Live Presentation Link](https://www.loom.com/share/99945e54f72f40b2b68f8de895a2824a?sid=37dd5e35-6833-4998-b1a4-1753d9fae8e5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
