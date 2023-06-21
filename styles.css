@@ -532,6 +532,7 @@ hr {
 
 /* dekstop */
 @media screen and (min-width: 768px) {
+
   /* header section */
   .header {
     height: 72px;
@@ -539,6 +540,14 @@ hr {
   }
 
   .header img {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-nav {
     display: none;
   }
 
