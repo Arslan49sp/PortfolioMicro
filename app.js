@@ -15,4 +15,12 @@ window.addEventListener('DOMContentLoaded', () => {
 		}
 	});
 
+	navLinkMenu.forEach((element) => {
+		element.addEventListener('click', () => {
+			menu_btn.classList.remove('is-active');
+			mobile_menu.classList.remove('is-active');
+			document.body.style.overflowY = 'scroll';
+		});
+	});
+
 });
