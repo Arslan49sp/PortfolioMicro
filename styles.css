@@ -43,6 +43,7 @@ body {
 .black {
   color: black;
 }
+
 .button {
   background-color: green;
   border-radius: 4px;
@@ -502,16 +503,6 @@ hr {
     position: relative;
   }
 
-  .close_modal_btn {
-    position: absolute;
-    aspect-ratio: 1;
-    right: 15px;
-    top: 15px;
-    background-color: transparent;
-    border-radius: 50%;
-    border: none;
-  }
-
   .modal_title {
     margin: 0;
     font-weight: 600;
@@ -686,6 +677,7 @@ hr {
     padding: 24px;
     margin: auto;
   }
+
   .header_container {
     display: flex;
     justify-content: center;
