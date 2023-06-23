@@ -132,8 +132,7 @@ const modalButtons = document.querySelectorAll('.btngreen');
 const closeButtons = document.querySelectorAll('.close-modal-button');
 
 if (modalButtons) {
-  // eslint-disable-next-line no-plusplus
-  for (let index = 0; index < modalButtons.length; index++) {
+  for (let index = 0; index < modalButtons.length; index+=1) {
     const element = modalButtons[index];
     const modalId = element.getAttribute('data-modal');
     const modal = document.getElementById(`${modalId}`);
