@@ -512,7 +512,7 @@ hr {
     border: none;
   }
 
-  .modal-title {
+  .modal_title {
     margin: 0;
     font-weight: 600;
     font-size: 32px;
@@ -530,12 +530,12 @@ hr {
     margin: 0;
   }
 
-  .modal-button-container {
+  .modal_btn_container {
     display: flex;
     justify-content: space-around;
   }
 
-  .modal-button-container span {
+  .modal_btn_container span {
     margin-left: 8px;
   }
 
@@ -668,11 +668,11 @@ hr {
     border-radius: 8px;
   }
 
-  .modal-title {
+  .modal_title {
     width: 60%;
   }
 
-  .modal-button-container {
+  .modal_btn_container {
     width: 40%;
     position: absolute;
     bottom: 20%;
