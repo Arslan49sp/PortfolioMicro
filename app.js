@@ -162,3 +162,16 @@ if (modalButtons) {
     });
   }
 }
+
+/* FORM VALIDATION SECTION */
+const userEmail = document.getElementById('email');
+const formContact = document.getElementById('contact-form');
+const errMsg = document.querySelector('small');
+
+formContact.addEventListener('submit', (e) => {
+  const regex = /[A-Z]/;
+  if (regex.test(userEmail.value)) {
+    errMsg.innerText = 'Please enter only lower case valid email';
+    e.preventDefault();
+  }
+});

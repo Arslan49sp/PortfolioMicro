@@ -619,6 +619,24 @@ hr {
     background-color: green;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   }
+
+  .btn_submit_block {
+    display: flex;
+    column-gap: 2px;
+    align-items: center;
+  }
+
+  .btn_block {
+    float: left;
+    width: 49%;
+  }
+
+  small {
+    word-wrap: break-word;
+    width: 100%;
+    color: red;
+    font-weight: bold;
+  }
 }
 
 /* dekstop */
