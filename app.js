@@ -164,7 +164,7 @@ if (modalButtons) {
 }
 
 /* FORM VALIDATION SECTION */
-const userEmail = document.getElementById('user_email');
+const userEmail = document.getElementById('email');
 const formContact = document.getElementById('contact-form');
 const errMsg = document.querySelector('small');
 
