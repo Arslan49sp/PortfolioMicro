@@ -30,7 +30,6 @@ const portfolioList = [
     title: "Online graphics tool for designers",
     techStack: ["HTML", "JavaScript", "Ruby on Rails"],
     screenshotMobile: "assets/model.png",
-    screenshotDekstop: "#",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s",
     source: "#",
@@ -38,10 +37,9 @@ const portfolioList = [
   },
   {
     id: 2,
-    title: "Multi-Post Stories Gain+Glory",
+    title: "Multi-Post Stories Gain+Glory One",
     techStack: ["HTML", "JavaScript", "Ruby on Rails"],
     screenshotMobile: "#",
-    screenshotDekstop: "#",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s",
     source: "#",
@@ -49,10 +47,9 @@ const portfolioList = [
   },
   {
     id: 3,
-    title: "Multi-Post Stories Gain+Glory",
+    title: "Multi-Post Stories Gain+Glory Two",
     techStack: ["HTML", "JavaScript", "Ruby on Rails"],
     screenshotMobile: "#",
-    screenshotDekstop: "#",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s",
     source: "#",
@@ -60,10 +57,9 @@ const portfolioList = [
   },
   {
     id: 4,
-    title: "Multi-Post Stories Gain+Glory",
+    title: "Multi-Post Stories Gain+Glory Three",
     techStack: ["HTML", "JavaScript", "Ruby on Rails"],
     screenshotMobile: "#",
-    screenshotDekstop: "#",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s",
     source: "#",
@@ -71,10 +67,9 @@ const portfolioList = [
   },
   {
     id: 5,
-    title: "Multi-Post Stories Gain+Glory",
+    title: "Multi-Post Stories Gain+Glory Four",
     techStack: ["HTML", "JavaScript", "Ruby on Rails"],
     screenshotMobile: "#",
-    screenshotDekstop: "#",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s",
     source: "#",
@@ -82,10 +77,9 @@ const portfolioList = [
   },
   {
     id: 6,
-    title: "Multi-Post Stories Gain+Glory",
+    title: "Multi-Post Stories Gain+Glory Five",
     techStack: ["HTML", "JavaScript", "Ruby on Rails"],
     screenshotMobile: "#",
-    screenshotDekstop: "#",
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s",
     source: "#",
@@ -112,8 +106,8 @@ function cardAndModal(portfolio) {
 </div>
 <dialog id="modal${portfolio.id}">
 <div class="modal">
-<button class="close-modal-button" data-modal="modal${portfolio.id}"><i class="fas fa-xmark fa-lg"></i></button>
-<div class="modal-image" style="--imageMobile:url('${portfolio.screenshotMobile}'); --imageDekstop:url('${portfolio.screenshotDekstop}')"></div>
+<button class="close_modal_btn" data-modal="modal${portfolio.id}"><i class="fas fa-xmark fa-lg"></i></button>
+<div class="modal_image" style="--imageMobile:url('${portfolio.screenshotMobile}')"></div>
 <h3 class="modal-title">${portfolio.title}</h3>
 <div><ul class="flex_left tools_flex">
   ${techStack}
@@ -140,7 +134,7 @@ const cards = () => {
 document.querySelector(".work_card_container").innerHTML = cards().join("");
 
 const modalButtons = document.querySelectorAll(".btngreen");
-const closeButtons = document.querySelectorAll(".close-modal-button");
+const closeButtons = document.querySelectorAll(".close_modal_btn");
 
 if (closeButtons) {
   closeButtons.forEach((element) => {
@@ -152,7 +146,7 @@ if (closeButtons) {
     });
 
     modal.addEventListener("close", () => {
-      body.classList.remove("prevent-scrolling");
+      document.body.style.overflowY = "scroll";
     });
   });
 }
@@ -165,7 +159,7 @@ if (modalButtons) {
 
     element.addEventListener("click", () => {
       modal.showModal();
-      body.classList.add("prevent-scrolling");
+      document.body.style.overflowY = "hidden";
     });
   }
 }

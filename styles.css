@@ -502,7 +502,7 @@ hr {
     position: relative;
   }
 
-  .close-modal-button {
+  .close_modal_btn {
     position: absolute;
     aspect-ratio: 1;
     right: 15px;
@@ -519,7 +519,7 @@ hr {
     line-height: 44px;
   }
 
-  .modal-image {
+  .modal_image {
     background-image: var(--imageMobile);
     width: 100%;
     height: 220px;
@@ -539,7 +539,7 @@ hr {
     margin-left: 8px;
   }
 
-  .close-modal-button {
+  .close_modal_btn {
     position: absolute;
     aspect-ratio: 1;
     right: 15px;
@@ -650,7 +650,7 @@ hr {
     display: none;
   }
 
-  .close-modal-button {
+  .close_modal_bn {
     display: block;
     width: 40px;
     padding: 8px;
@@ -660,7 +660,7 @@ hr {
     border-radius: 8px;
   }
 
-  .modal-image {
+  .modal_image {
     height: 616px;
     max-width: 872px;
     background-size: cover;
