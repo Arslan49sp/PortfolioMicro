@@ -175,4 +175,3 @@ formContact.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
-
